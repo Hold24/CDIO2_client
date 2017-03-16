@@ -10,6 +10,6 @@ public class Main {
 		ISocketController socketController = new SocketController();
 		IMainController mainController = new MainController(socketController);
 		mainController.start();
-		System.out.println("");
+		
 	}
 }
